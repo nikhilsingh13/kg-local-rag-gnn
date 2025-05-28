@@ -28,19 +28,19 @@ All papers are placed in the `data/raw/` directory in their original PDF format.
     * **Authors:** Thomas N. Kipf, Max Welling
     * **Year:** 2017
     * **arXiv ID:** `1609.02907`
-    * **Filename Example:** `1609.02907.pdf`
+    * **Filename Example:** `1609.02907v4.pdf`
 
 2.  **Inductive Representation Learning on Large Graphs (GraphSAGE)**
     * **Authors:** William L. Hamilton, Rex Ying, Jure Leskovec
     * **Year:** 2017
     * **arXiv ID:** `1706.02216`
-    * **Filename Example:** `1706.02216.pdf`
+    * **Filename Example:** `1706.02216v4.pdf`
 
 3.  **Graph Attention Networks (GAT)**
     * **Authors:** Petar Veličković et al.
     * **Year:** 2018
     * **arXiv ID:** `1710.10903`
-    * **Filename Example:** `1710.10903.pdf`
+    * **Filename Example:** `1710.10903v3.pdf`
 
 4.  **Neural Message Passing for Quantum Chemistry (MPNN)**
     * **Authors:** Justin Gilmer et al.
