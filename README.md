@@ -24,53 +24,53 @@ This project is built upon the analysis of the following foundational and influe
 
 All papers are placed in the `data/raw/` directory in their original PDF format.
 
-1.  **"Semi-Supervised Classification with Graph Convolutional Networks"**
+1.  **Semi-Supervised Classification with Graph Convolutional Networks**
     * **Authors:** Thomas N. Kipf, Max Welling
     * **Year:** 2017
     * **arXiv ID:** `1609.02907`
     * **Filename Example:** `1609.02907.pdf`
 
-2.  **"Inductive Representation Learning on Large Graphs" (GraphSAGE)**
+2.  **Inductive Representation Learning on Large Graphs (GraphSAGE)**
     * **Authors:** William L. Hamilton, Rex Ying, Jure Leskovec
     * **Year:** 2017
     * **arXiv ID:** `1706.02216`
     * **Filename Example:** `1706.02216.pdf`
 
-3.  **"Graph Attention Networks" (GAT)**
+3.  **Graph Attention Networks (GAT)**
     * **Authors:** Petar Veličković et al.
     * **Year:** 2018
     * **arXiv ID:** `1710.10903`
     * **Filename Example:** `1710.10903.pdf`
 
-4.  **"Neural Message Passing for Quantum Chemistry" (MPNN)**
+4.  **Neural Message Passing for Quantum Chemistry (MPNN)**
     * **Authors:** Justin Gilmer et al.
     * **Year:** 2017
     * **arXiv ID:** `1704.01212`
-    * **Filename Example:** `1704.01212.pdf`
+    * **Filename Example:** `1704.01212v2.pdf`
 
-5.  **"How Powerful are Graph Neural Networks?" (GIN)**
+5.  **How Powerful are Graph Neural Networks? (GIN)**
     * **Authors:** Keyulu Xu et al.
     * **Year:** 2019
     * **arXiv ID:** `1810.00826`
-    * **Filename Example:** `1810.00826.pdf`
+    * **Filename Example:** `1810.00826v3.pdf`
 
-6.  **"Deep Learning for Learning Graph Representations" (DeepWalk)**
+6.  **DeepWalk: Online Learning of Social Representations**
     * **Authors:** Bryan Perozzi, Rami Al-Rfou, Steven Skiena
     * **Year:** 2014
     * **arXiv ID:** `1403.6652`
-    * **Filename Example:** `1403.6652.pdf`
+    * **Filename Example:** `1403.6652v2.pdf`
 
-7.  **"node2vec: Scalable Feature Learning for Networks"**
+7.  **node2vec: Scalable Feature Learning for Networks**
     * **Authors:** Aditya Grover, Jure Leskovec
     * **Year:** 2016
     * **arXiv ID:** `1607.00653`
-    * **Filename Example:** `1607.00653.pdf`
+    * **Filename Example:** `1607.00653v1.pdf`
 
-8.  **"A Comprehensive Survey on Graph Neural Networks" (Survey)**
+8.  **A Comprehensive Survey on Graph Neural Networks (Survey)**
     * **Authors:** Zonghan Wu et al.
     * **Year:** 2019
     * **arXiv ID:** `1901.00596`
-    * **Filename Example:** `1901.00596.pdf`
+    * **Filename Example:** `1901.00596v4.pdf`
 
 ---
 
