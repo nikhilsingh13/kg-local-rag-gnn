@@ -88,7 +88,7 @@ To get this project up and running locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/nikhilsingh13/kg-local-rag-gnn.git](https://github.com/nikhilsingh13/kg-local-rag-gnn.git)
+    git clone https://github.com/nikhilsingh13/kg-local-rag-gnn.git
     cd kg-local-rag-gnn
     ```
 
