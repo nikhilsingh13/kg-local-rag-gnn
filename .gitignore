@@ -6,4 +6,21 @@ __pycache__/
 *.pyd
 .DS_Store
 
+# Env
 .env
+
+# DuckDB files (binary, large)
+data/db/*.duckdb
+data/db/*.duckdb.wal
+
+# Processed data (regenerated from notebooks)
+data/processed/*.json
+data/processed/*.jsonl
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
