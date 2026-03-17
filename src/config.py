@@ -28,6 +28,9 @@ HF_TOKEN: str = os.getenv("HF_TOKEN", "")
 LLM_MODEL_ID: str = os.getenv("LLM_MODEL_ID", "meta-llama/Llama-3.3-70B-Instruct")
 PROMPTS_DIR = ROOT_DIR / "src/prompts"
 
+ENTITY_PROMPT_PATH = PROMPTS_DIR / "entity_prompt.yaml"
+RELATIONSHIP_PROMPT_PATH = PROMPTS_DIR / "relationship_prompt.yaml"
+
 # Entities
 MAX_TOKENS: int = int(os.getenv("MAX_TOKENS", "1500"))
 
