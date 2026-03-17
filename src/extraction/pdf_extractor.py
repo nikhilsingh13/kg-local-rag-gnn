@@ -11,11 +11,16 @@ Each Chunk carries:
     - page_range  : (start_page, end_page) the chunk spans
 """
 
-import re
-from dataclasses import dataclass, field
-from pathlib import Path
 import fitz
+import json
+import re
 
+from tqdm.auto import tqdm
+from dataclasses import dataclass, field, asdict
+from pathlib import Path
+
+
+from src.config import DATA_RAW_DIR, DATA_PROCESSED_DIR
 
 @dataclass
 class Chunk:
@@ -128,3 +133,17 @@ class PDFExtractor:
         chunks = self.chunk(cleaned_text, paper_id)
         
         return chunks
+    
+if __name__ == "__main__":
+    extractor = PDFExtractor()
+    pdfs = sorted(DATA_RAW_DIR.glob("*.pdf"))
+    all_chunks = []
+
+    for pdf in tqdm(pdfs, desc="Processing PDFs"):
+        all_chunks.extend(extractor.process(pdf))
+
+    with open(DATA_PROCESSED_DIR / "chunks.jsonl", "w") as f:
+        for chunk in all_chunks:
+            f.write(json.dumps(asdict(chunk)) + "\n")
+
+    print(f"Saved {len(all_chunks)} chunks from {len(pdfs)} PDFs")
